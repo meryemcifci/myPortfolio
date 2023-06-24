@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 *{
-    margin:0;
-    padding:0;
+    margin:0px;
+    padding:0px;
     box-sizing:border-box;
-    text-decoration: none;
+    text-decoration:none;
     border:none;
-    outline: none;
+    outline:none;
     scroll-behavior:smooth;
     font-family:'Poppins',sans-serif;
 }
@@ -24,7 +24,7 @@ body{
     color:var(--text-color);
 }
 .header{
-    position:relative;
+    position:fixed;
     top:0;
     left:0;
     width:100%;
@@ -57,6 +57,8 @@ body{
     display:none;
 }
 .home{
+    padding:10px;
+    height: 740px;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -74,8 +76,6 @@ body{
 span{
     color:var(--main-color);
 }
-
-
 .home-content h1{
     font-size: 5.6rem;
     font-weight: 700;
@@ -120,6 +120,8 @@ span{
     box-shadow: none;
 }
 .about{
+    padding:10px;
+    height: 740px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,7 +146,45 @@ span{
     font-size:1.6rem;
     margin:2rem 0 3rem;
 }
+.projects{
+    height: 600px;
+}
+.projects h2{
+    margin-top:20px;
+}
+.projects-container{
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    gap:2rem;
+}
+.projects-container .projects-box{
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding:3rem 2rem 4rem;
+    border-radius:2rem;
+    text-align:center;
+    border:.2rem solid var(--bg-color);
+    transition:.5s ease; 
+}
+.projects-container .projects-box:hover{
+    border-color: var(--main-color);
+    transform:scale(1.02);
+}
+.projects-box h3{
+    font-size: 2.6rem;
+}
+.projects-box p{
+    font-size: 1.3rem;
+    margin:1rem 3rem;
+}
+
 .container{
+    height: 550px;
     position: relative;
     display: flex;
     justify-content: center;

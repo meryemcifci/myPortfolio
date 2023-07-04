@@ -213,7 +213,6 @@ span{
     font-size:2rem;
     color:var(--second-bg-color);
 }
-
 .container{
     height: 550px;
     position: relative;
@@ -329,8 +328,12 @@ span{
     text-transform: uppercase;
     color:rgba(255,255,255,0.75);
 }
+.skills{
+    height: 70rem;
+    background-color: var(--second-bg-color);
+}
 .skills-content h2{
-    margin-top: 4rem;
+    margin-top: 5rem;
     margin-bottom: 0.5rem;
     display: flex;
     justify-content: center;
@@ -344,3 +347,11 @@ span{
     letter-spacing: -1px;
     text-align: center;
 }
+.experiences{
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+
+
+
